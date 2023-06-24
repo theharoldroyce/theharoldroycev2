@@ -1,0 +1,62 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Semibold';
+  src: url('../src/assets/fonts/Semibold.ttf');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url('../src/assets/fonts/Bold.ttf');
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    color: #FE025B;
+  }
+
+  25% {
+    transform: translateY(-25%);
+    color: #00F5FA;
+  }
+
+  75% {
+    transform: translateY(-25%);
+    color: #4A0BE8;
+  }
+
+  50% {
+    transform: translateY(0);
+    color: #FEFFFE;
+  }
+}
+
+.animate-bounce-color {
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+html {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body {
+  background-color: #2D2C3B;
+  color: #FEFFFE;
+}
+
+button {
+  background-color: #FE025B;
+}
