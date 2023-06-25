@@ -12,7 +12,6 @@ const Experience = () => {
       <NavBar />
       <div className="pt-20">
         <Timeline />
-        <Certifications />
         <TrainingCert />
       </div>
       <Foother />

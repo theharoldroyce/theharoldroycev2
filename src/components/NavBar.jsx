@@ -1,15 +1,12 @@
-import { Fragment, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 import { SiGithub, SiLinkedin } from 'react-icons/si';
 import {
     Navbar,
     Collapse,
     IconButton,
-    Button,
     Dialog,
-    DialogHeader,
     DialogBody,
-    DialogFooter,
 } from "@material-tailwind/react";
 import { navItems, socItems } from '../static/data'
 import Logo from "../assets/icons/hvicon.ico"

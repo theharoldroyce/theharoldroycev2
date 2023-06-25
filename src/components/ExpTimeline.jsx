@@ -36,7 +36,7 @@ const ExpTimeline = () => {
                                 <Typography
                                     className="font-normal text-base md:text-lg"
                                 >
-                                    Bachelor's degree in Information Systems with specialization in Web Designing and Development.
+                                    Bachelor's Degree in Information Systems with specialization in Web Designing and Development.
                                 </Typography>
                             </TimelineBody>
                         </TimelineItem>

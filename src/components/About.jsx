@@ -12,8 +12,8 @@ const About = () => {
                 </div>
                 <div className="w-full lg:w-3/5 flex">
                     <div className="p-4 lg:p-8">
-                        <h1 className="text-xl lg:text-4xl  font-bold mb-2">Hi, I'm Harold Royce</h1>
-                        <h3 className="text-md lg:text-lg  mb-4 text-[#FE025B] font-bold">Software Engineer | Web Developer</h3>
+                        <h1 className="text-xl lg:text-4xl text-center lg:text-left font-bold mb-2">Hi, I'm Harold Royce</h1>
+                        <h3 className="text-md lg:text-lg text-center lg:text-left mb-4 text-[#FE025B] font-bold">Software Engineer | Web Developer</h3>
                         <p className="text-sm lg:text-lg mb-4">
                             As an enthusiastic web developer, I have honed my skills over the years to create impactful online experiences that captivate and engage users. With a keen eye for design aesthetics and a solid understanding of user experience principles, I strive to deliver websites that not only look visually stunning but also provide seamless navigation and intuitive functionality.
                         </p>

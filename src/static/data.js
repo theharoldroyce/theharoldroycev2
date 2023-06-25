@@ -1,3 +1,14 @@
+import Serverless from "../assets/trainingcert/Serverless.png"
+import Pentest from "../assets/trainingcert/Pentest.png"
+import Cert from "../assets/trainingcert/Cert.jpg"
+import Cybersecurity from "../assets/trainingcert/Cybersecurity.jpg"
+import Firebase from "../assets/trainingcert/Firebase.jpg"
+import Game from "../assets/trainingcert/Game.jpg"
+import HTMCSS from "../assets/trainingcert/HTM&CSS.jpg"
+import Networking from "../assets/trainingcert/Networking.jpg"
+import UiUx from "../assets/trainingcert/UiUx.jpg"
+import Wordpress from "../assets/trainingcert/Wordpress.jpg"
+
 
 
 // navigation Data
@@ -137,42 +148,52 @@ export const trainCertItems = [
   {
     title: "Firebase Cloud Store",
     sub: "DICT",
+    certificateImage: Firebase,
   },
   {
     title: "In-depth Cybersecurity Training",
     sub: "DICT",
+    certificateImage: Cybersecurity,
   },
   {
     title: "Introduction to Computer Networking",
     sub: "DICT",
+    certificateImage: Networking,
   },
   {
     title: "Introduction to HTML & CSS",
     sub: "DICT",
+    certificateImage: HTMCSS,
   },
   {
     title: "UI/UX Fundamentals",
     sub: "DICT",
+    certificateImage: UiUx,
   },
   {
     title: "Web Development using WordPress",
     sub: "DICT",
+    certificateImage: Wordpress,
   },
   {
     title: "Hacking And Penetration Testing",
     sub: "sixDELTA Division of MVSoftech",
+    certificateImage: Pentest,
   },
   {
     title: "Serverless All The Things",
     sub: "Edukasyon.ph AWS Siklab Pilipinas",
+    certificateImage: Serverless,
   },
   {
     title: "Game Development Backend Database using AWS",
     sub: "Edukasyon.ph AWS Siklab Pilipinas",
+    certificateImage: Game,
   },
   {
     title: "Foundation of Computer Emergency Response Team (CERT) Operatrion",
     sub: "DICT",
+    certificateImage: Cert,
   },
 
 ];
