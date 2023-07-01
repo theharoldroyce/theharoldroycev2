@@ -26,6 +26,31 @@ const ExpTimeline = () => {
                             <TimelineHeader className="mb-2">
                                 <TimelineIcon />
                                 <Typography className="leading-none text-lg md:text-2xl text-[#00F5FA] font-bold">
+                                    2023 - Web Developer
+                                </Typography>
+                            </TimelineHeader>
+                            <TimelineBody className="pb-8">
+                                <Typography className="leading-none mb-2 text-lg md:text-2xl text-[#FEFFFE] font-bold">
+                                    Renewable Energy Upgrades
+                                </Typography>
+                                <Typography
+                                    className="font-normal text-base md:text-lg"
+                                >
+                                    Program, design and maintain software applications.
+                                    <br/>
+                                    Identify and solve system issues.
+                                    <br/>
+                                    Maintain and enhance current features and functionalities, and monitor and control the system.
+                                    <br/>
+                                    Develop and maintain knowledge of tools and service management procedures necessary to run IT operations.
+                                </Typography>
+                            </TimelineBody>
+                        </TimelineItem>
+                        <TimelineItem>
+                            <TimelineConnector />
+                            <TimelineHeader className="mb-2">
+                                <TimelineIcon />
+                                <Typography className="leading-none text-lg md:text-2xl text-[#00F5FA] font-bold">
                                     2023 - Graduation
                                 </Typography>
                             </TimelineHeader>
@@ -64,12 +89,12 @@ const ExpTimeline = () => {
                             <TimelineHeader className="mb-2">
                                 <TimelineIcon />
                                 <Typography className="leading-none text-lg md:text-2xl text-[#00F5FA] font-bold">
-                                    2020 - Present
+                                    2020 - Freelance
                                 </Typography>
                             </TimelineHeader>
                             <TimelineBody>
                                 <Typography className="leading-none mb-2 text-lg md:text-2xl text-[#FEFFFE] font-bold">
-                                    Freelance
+                                    Web Developer / Web Designer
                                 </Typography>
                                 <Typography
                                     className="font-normal text-base md:text-lg"
